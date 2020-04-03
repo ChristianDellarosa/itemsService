@@ -13,11 +13,6 @@ build/
 .settings
 .springBeans
 .sts4-cache
-*/.classpath
-*/.project
-*/.settings
-*/bin
-*/.metadata
 
 ### IntelliJ IDEA ###
 .idea
