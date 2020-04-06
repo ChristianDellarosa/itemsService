@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("items")
+//@RequestMapping("items")
 public class ItemController {
 
     private IItemService itemService;
 
-
+    @Autowired
     public ItemController(@Qualifier("serviceRestTemplate") IItemService itemService) {
         this.itemService = itemService;
     }
